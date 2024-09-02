@@ -2,8 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <Authors>Maurizio Attanasi</Authors>
+    <Version>0.1.0</Version>
+    <Description>Library for paging through .NET IEnumerable/IQueriable</Description>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/maurizioattanasi/ATech.Pagination</PackageProjectUrl>
+    <Copyright>Maurizio Attanasi</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
